@@ -5,7 +5,6 @@ def line(current_people)
     positions = current_people.map{|name| "#{current_people.index(name) + 1}. #{name}"}
     puts "The line is currently: #{positions.join(" ")}"
   end
-  
 end
 
 def take_a_number(current_people, new_person)
